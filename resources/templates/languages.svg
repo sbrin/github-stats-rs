@@ -46,10 +46,11 @@ ul {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 li {
-  display: inline-flex;
   font-size: 12px;
   margin-right: 2ch;
   align-items: center;
